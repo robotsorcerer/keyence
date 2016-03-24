@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_rdUsb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_rdUsb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_rdUsb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_rdUsb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="_rdUsb.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_rdUsb.Text" xml:space="preserve">
+    <value>USB</value>
+  </data>
+  <data name="&gt;&gt;_rdUsb.Name" xml:space="preserve">
+    <value>_rdUsb</value>
+  </data>
+  <data name="&gt;&gt;_rdUsb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rdUsb.Parent" xml:space="preserve">
+    <value>_pnlCommunicationDevice</value>
+  </data>
+  <data name="&gt;&gt;_rdUsb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_rdEthernet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_rdEthernet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 4</value>
+  </data>
+  <data name="_rdEthernet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_rdEthernet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="_rdEthernet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_rdEthernet.Text" xml:space="preserve">
+    <value>Ethernet</value>
+  </data>
+  <data name="&gt;&gt;_rdEthernet.Name" xml:space="preserve">
+    <value>_rdEthernet</value>
+  </data>
+  <data name="&gt;&gt;_rdEthernet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_rdEthernet.Parent" xml:space="preserve">
+    <value>_pnlCommunicationDevice</value>
+  </data>
+  <data name="&gt;&gt;_rdEthernet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_txtIpFirstSegment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 23</value>
+  </data>
+  <data name="_txtIpFirstSegment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtIpFirstSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="_txtIpFirstSegment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_txtIpFirstSegment.Text" xml:space="preserve">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFirstSegment.Name" xml:space="preserve">
+    <value>_txtIpFirstSegment</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFirstSegment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFirstSegment.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFirstSegment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_txtIpFourthSegment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 23</value>
+  </data>
+  <data name="_txtIpFourthSegment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtIpFourthSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="_txtIpFourthSegment.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_txtIpFourthSegment.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFourthSegment.Name" xml:space="preserve">
+    <value>_txtIpFourthSegment</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFourthSegment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFourthSegment.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtIpFourthSegment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_txtIpSecondSegment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="_txtIpSecondSegment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtIpSecondSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="_txtIpSecondSegment.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_txtIpSecondSegment.Text" xml:space="preserve">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;_txtIpSecondSegment.Name" xml:space="preserve">
+    <value>_txtIpSecondSegment</value>
+  </data>
+  <data name="&gt;&gt;_txtIpSecondSegment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtIpSecondSegment.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtIpSecondSegment.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_txtIpThirdSegment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="_txtIpThirdSegment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtIpThirdSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="_txtIpThirdSegment.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_txtIpThirdSegment.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_txtIpThirdSegment.Name" xml:space="preserve">
+    <value>_txtIpThirdSegment</value>
+  </data>
+  <data name="&gt;&gt;_txtIpThirdSegment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtIpThirdSegment.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtIpThirdSegment.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_lblIpSeparator3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblIpSeparator3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 27</value>
+  </data>
+  <data name="_lblIpSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="_lblIpSeparator3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_lblIpSeparator3.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator3.Name" xml:space="preserve">
+    <value>_lblIpSeparator3</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator3.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_lblIpSeparator2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblIpSeparator2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 27</value>
+  </data>
+  <data name="_lblIpSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="_lblIpSeparator2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_lblIpSeparator2.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator2.Name" xml:space="preserve">
+    <value>_lblIpSeparator2</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator2.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_lblHighSpeedPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblHighSpeedPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 69</value>
+  </data>
+  <data name="_lblHighSpeedPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 12</value>
+  </data>
+  <data name="_lblHighSpeedPort.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="_lblHighSpeedPort.Text" xml:space="preserve">
+    <value>TCPポート番号（高速通信）</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedPort.Name" xml:space="preserve">
+    <value>_lblHighSpeedPort</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedPort.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedPort.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_txtHighSpeedPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 66</value>
+  </data>
+  <data name="_txtHighSpeedPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtHighSpeedPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="_txtHighSpeedPort.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_txtHighSpeedPort.Text" xml:space="preserve">
+    <value>24692</value>
+  </data>
+  <data name="&gt;&gt;_txtHighSpeedPort.Name" xml:space="preserve">
+    <value>_txtHighSpeedPort</value>
+  </data>
+  <data name="&gt;&gt;_txtHighSpeedPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtHighSpeedPort.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtHighSpeedPort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_lblIpSeparator1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblIpSeparator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 27</value>
+  </data>
+  <data name="_lblIpSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="_lblIpSeparator1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_lblIpSeparator1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator1.Name" xml:space="preserve">
+    <value>_lblIpSeparator1</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator1.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblIpSeparator1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="_txtCommandPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 44</value>
+  </data>
+  <data name="_txtCommandPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtCommandPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="_txtCommandPort.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_txtCommandPort.Text" xml:space="preserve">
+    <value>24691</value>
+  </data>
+  <data name="&gt;&gt;_txtCommandPort.Name" xml:space="preserve">
+    <value>_txtCommandPort</value>
+  </data>
+  <data name="&gt;&gt;_txtCommandPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtCommandPort.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_txtCommandPort.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="_lblIpAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblIpAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 27</value>
+  </data>
+  <data name="_lblIpAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 12</value>
+  </data>
+  <data name="_lblIpAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="_lblIpAddress.Text" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="&gt;&gt;_lblIpAddress.Name" xml:space="preserve">
+    <value>_lblIpAddress</value>
+  </data>
+  <data name="&gt;&gt;_lblIpAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblIpAddress.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblIpAddress.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="_lblCommandPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblCommandPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 48</value>
+  </data>
+  <data name="_lblCommandPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 12</value>
+  </data>
+  <data name="_lblCommandPort.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="_lblCommandPort.Text" xml:space="preserve">
+    <value>TCPポート番号（コマンド送受信）</value>
+  </data>
+  <data name="&gt;&gt;_lblCommandPort.Name" xml:space="preserve">
+    <value>_lblCommandPort</value>
+  </data>
+  <data name="&gt;&gt;_lblCommandPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblCommandPort.Parent" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_lblCommandPort.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="_grpEthernetSetting.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_grpEthernetSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 4</value>
+  </data>
+  <data name="_grpEthernetSetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpEthernetSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpEthernetSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 92</value>
+  </data>
+  <data name="_grpEthernetSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_grpEthernetSetting.Name" xml:space="preserve">
+    <value>_grpEthernetSetting</value>
+  </data>
+  <data name="&gt;&gt;_grpEthernetSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_grpEthernetSetting.Parent" xml:space="preserve">
+    <value>_pnlCommunicationDevice</value>
+  </data>
+  <data name="&gt;&gt;_grpEthernetSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_pnlCommunicationDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 18</value>
+  </data>
+  <data name="_pnlCommunicationDevice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_pnlCommunicationDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 105</value>
+  </data>
+  <data name="_pnlCommunicationDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_pnlCommunicationDevice.Name" xml:space="preserve">
+    <value>_pnlCommunicationDevice</value>
+  </data>
+  <data name="&gt;&gt;_pnlCommunicationDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_pnlCommunicationDevice.Parent" xml:space="preserve">
+    <value>_grpBaseOperation</value>
+  </data>
+  <data name="&gt;&gt;_pnlCommunicationDevice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnFinalize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="_btnFinalize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnFinalize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="_btnFinalize.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_btnFinalize.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="&gt;&gt;_btnFinalize.Name" xml:space="preserve">
+    <value>_btnFinalize</value>
+  </data>
+  <data name="&gt;&gt;_btnFinalize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnFinalize.Parent" xml:space="preserve">
+    <value>_grpBaseOperation</value>
+  </data>
+  <data name="&gt;&gt;_btnFinalize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnInitialize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="_btnInitialize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnInitialize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="_btnInitialize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_btnInitialize.Text" xml:space="preserve">
+    <value>初期化</value>
+  </data>
+  <data name="&gt;&gt;_btnInitialize.Name" xml:space="preserve">
+    <value>_btnInitialize</value>
+  </data>
+  <data name="&gt;&gt;_btnInitialize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnInitialize.Parent" xml:space="preserve">
+    <value>_grpBaseOperation</value>
+  </data>
+  <data name="&gt;&gt;_btnInitialize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_grpBaseOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="_grpBaseOperation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpBaseOperation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpBaseOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 129</value>
+  </data>
+  <data name="_grpBaseOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_grpBaseOperation.Text" xml:space="preserve">
+    <value>初期化・終了</value>
+  </data>
+  <data name="&gt;&gt;_grpBaseOperation.Name" xml:space="preserve">
+    <value>_grpBaseOperation</value>
+  </data>
+  <data name="&gt;&gt;_grpBaseOperation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_grpBaseOperation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_grpBaseOperation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_txtMeasureData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="_txtMeasureData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtMeasureData.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_txtMeasureData.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="_txtMeasureData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 82</value>
+  </data>
+  <data name="_txtMeasureData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_txtMeasureData.Name" xml:space="preserve">
+    <value>_txtMeasureData</value>
+  </data>
+  <data name="&gt;&gt;_txtMeasureData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtMeasureData.Parent" xml:space="preserve">
+    <value>_grpGetData</value>
+  </data>
+  <data name="&gt;&gt;_txtMeasureData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnGetProfileAdvance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="_btnGetProfileAdvance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnGetProfileAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="_btnGetProfileAdvance.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_btnGetProfileAdvance.Text" xml:space="preserve">
+    <value>高機能モードプロファイル取得</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfileAdvance.Name" xml:space="preserve">
+    <value>_btnGetProfileAdvance</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfileAdvance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfileAdvance.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfileAdvance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnReferenceSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 20</value>
+  </data>
+  <data name="_btnReferenceSavePath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnReferenceSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="_btnReferenceSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_btnReferenceSavePath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;_btnReferenceSavePath.Name" xml:space="preserve">
+    <value>_btnReferenceSavePath</value>
+  </data>
+  <data name="&gt;&gt;_btnReferenceSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnReferenceSavePath.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnReferenceSavePath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnGetBatchProfileAdvance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 78</value>
+  </data>
+  <data name="_btnGetBatchProfileAdvance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnGetBatchProfileAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="_btnGetBatchProfileAdvance.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_btnGetBatchProfileAdvance.Text" xml:space="preserve">
+    <value>高機能モードバッチプロファイル取得</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfileAdvance.Name" xml:space="preserve">
+    <value>_btnGetBatchProfileAdvance</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfileAdvance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfileAdvance.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfileAdvance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_btnGetBatchProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 48</value>
+  </data>
+  <data name="_btnGetBatchProfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnGetBatchProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="_btnGetBatchProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_btnGetBatchProfile.Text" xml:space="preserve">
+    <value>高速モードバッチプロファイル取得</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfile.Name" xml:space="preserve">
+    <value>_btnGetBatchProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfile.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetBatchProfile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_btnGetProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="_btnGetProfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnGetProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="_btnGetProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_btnGetProfile.Text" xml:space="preserve">
+    <value>高速モードプロファイル取得</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfile.Name" xml:space="preserve">
+    <value>_btnGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfile.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_btnGetProfile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_txtSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="_txtSavePath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 19</value>
+  </data>
+  <data name="_txtSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_txtSavePath.Name" xml:space="preserve">
+    <value>_txtSavePath</value>
+  </data>
+  <data name="&gt;&gt;_txtSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtSavePath.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_txtSavePath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_lblSavePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="_lblSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 12</value>
+  </data>
+  <data name="_lblSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_lblSavePath.Text" xml:space="preserve">
+    <value>保存ファイルパス</value>
+  </data>
+  <data name="&gt;&gt;_lblSavePath.Name" xml:space="preserve">
+    <value>_lblSavePath</value>
+  </data>
+  <data name="&gt;&gt;_lblSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblSavePath.Parent" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_lblSavePath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_grpGetProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="_grpGetProfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpGetProfile.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpGetProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 111</value>
+  </data>
+  <data name="_grpGetProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_grpGetProfile.Text" xml:space="preserve">
+    <value>プロファイル取得</value>
+  </data>
+  <data name="&gt;&gt;_grpGetProfile.Name" xml:space="preserve">
+    <value>_grpGetProfile</value>
+  </data>
+  <data name="&gt;&gt;_grpGetProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_grpGetProfile.Parent" xml:space="preserve">
+    <value>_grpGetData</value>
+  </data>
+  <data name="&gt;&gt;_grpGetProfile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnGetMeasureData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="_btnGetMeasureData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnGetMeasureData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="_btnGetMeasureData.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_btnGetMeasureData.Text" xml:space="preserve">
+    <value>最新計測値取得</value>
+  </data>
+  <data name="&gt;&gt;_btnGetMeasureData.Name" xml:space="preserve">
+    <value>_btnGetMeasureData</value>
+  </data>
+  <data name="&gt;&gt;_btnGetMeasureData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnGetMeasureData.Parent" xml:space="preserve">
+    <value>_grpGetData</value>
+  </data>
+  <data name="&gt;&gt;_btnGetMeasureData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_grpGetData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="_grpGetData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
+  </data>
+  <data name="_grpGetData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpGetData.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpGetData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 224</value>
+  </data>
+  <data name="_grpGetData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_grpGetData.Text" xml:space="preserve">
+    <value>測定結果取得</value>
+  </data>
+  <data name="&gt;&gt;_grpGetData.Name" xml:space="preserve">
+    <value>_grpGetData</value>
+  </data>
+  <data name="&gt;&gt;_grpGetData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_grpGetData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_grpGetData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_grpHighSpeed.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="_txtCallbackFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 44</value>
+  </data>
+  <data name="_txtCallbackFrequency.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtCallbackFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="_txtCallbackFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_txtCallbackFrequency.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;_txtCallbackFrequency.Name" xml:space="preserve">
+    <value>_txtCallbackFrequency</value>
+  </data>
+  <data name="&gt;&gt;_txtCallbackFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtCallbackFrequency.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_txtCallbackFrequency.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_txtStartProfileNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 20</value>
+  </data>
+  <data name="_txtStartProfileNo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_txtStartProfileNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="_txtStartProfileNo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_txtStartProfileNo.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_txtStartProfileNo.Name" xml:space="preserve">
+    <value>_txtStartProfileNo</value>
+  </data>
+  <data name="&gt;&gt;_txtStartProfileNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_txtStartProfileNo.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_txtStartProfileNo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_lblReceiveProfileCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 68</value>
+  </data>
+  <data name="_lblReceiveProfileCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="_lblReceiveProfileCount.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="_lblReceiveProfileCount.Text" xml:space="preserve">
+    <value>123456789</value>
+  </data>
+  <data name="_lblReceiveProfileCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveProfileCount.Name" xml:space="preserve">
+    <value>_lblReceiveProfileCount</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveProfileCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveProfileCount.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveProfileCount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_lblCallbackFrequency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblCallbackFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_lblCallbackFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 47</value>
+  </data>
+  <data name="_lblCallbackFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 12</value>
+  </data>
+  <data name="_lblCallbackFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="_lblCallbackFrequency.Text" xml:space="preserve">
+    <value>CaｌｌBack関数呼び出し頻度</value>
+  </data>
+  <data name="&gt;&gt;_lblCallbackFrequency.Name" xml:space="preserve">
+    <value>_lblCallbackFrequency</value>
+  </data>
+  <data name="&gt;&gt;_lblCallbackFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblCallbackFrequency.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_lblCallbackFrequency.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 12</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="_lblHighSpeedStartNo.Text" xml:space="preserve">
+    <value>開始プロファイル番号</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedStartNo.Name" xml:space="preserve">
+    <value>_lblHighSpeedStartNo</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedStartNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedStartNo.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_lblHighSpeedStartNo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_lblReceiveCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_lblReceiveCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 71</value>
+  </data>
+  <data name="_lblReceiveCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 12</value>
+  </data>
+  <data name="_lblReceiveCount.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="_lblReceiveCount.Text" xml:space="preserve">
+    <value>高速通信受信プロファイル数</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveCount.Name" xml:space="preserve">
+    <value>_lblReceiveCount</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveCount.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_lblReceiveCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_btnEndHighSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="_btnEndHighSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnEndHighSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_btnEndHighSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_btnEndHighSpeed.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="&gt;&gt;_btnEndHighSpeed.Name" xml:space="preserve">
+    <value>_btnEndHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_btnEndHighSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnEndHighSpeed.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_btnEndHighSpeed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_btnStartHighSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="_btnStartHighSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_btnStartHighSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_btnStartHighSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_btnStartHighSpeed.Text" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="&gt;&gt;_btnStartHighSpeed.Name" xml:space="preserve">
+    <value>_btnStartHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_btnStartHighSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnStartHighSpeed.Parent" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_btnStartHighSpeed.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_grpHighSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 378</value>
+  </data>
+  <data name="_grpHighSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpHighSpeed.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="_grpHighSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 96</value>
+  </data>
+  <data name="_grpHighSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_grpHighSpeed.Text" xml:space="preserve">
+    <value>高速データ通信</value>
+  </data>
+  <data name="&gt;&gt;_grpHighSpeed.Name" xml:space="preserve">
+    <value>_grpHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_grpHighSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_grpHighSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_grpHighSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="_saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="_saveFileDialog.Filter" xml:space="preserve">
+    <value>テキストファイル(*,txt)|*.txt|すべてのファイル(*.*)|*.*</value>
+  </data>
+  <metadata name="_timerHighSpeed.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>465, 486</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="&gt;&gt;_saveFileDialog.Name" xml:space="preserve">
+    <value>_saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;_saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_timerHighSpeed.Name" xml:space="preserve">
+    <value>_timerHighSpeed</value>
+  </data>
+  <data name="&gt;&gt;_timerHighSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

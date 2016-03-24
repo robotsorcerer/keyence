@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{0D71D5C3-34AF-4AB3-A68C-18AA3A691214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{BFEF4F3F-6B9F-4DC7-A7BE-2854861AE117}"
+	ProjectSection(SolutionItems) = preProject
+		include\LJV7_ErrorCode.h = include\LJV7_ErrorCode.h
+		include\LJV7_IF.h = include\LJV7_IF.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{352AA37A-541F-458B-B973-0091DCED178F}"
+	ProjectSection(SolutionItems) = preProject
+		lib\LJV7_IF.dll = lib\LJV7_IF.dll
+		lib\LJV7_IF.lib = lib\LJV7_IF.lib
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D71D5C3-34AF-4AB3-A68C-18AA3A691214}.Debug|x86.ActiveCfg = Debug|x86
+		{0D71D5C3-34AF-4AB3-A68C-18AA3A691214}.Debug|x86.Build.0 = Debug|x86
+		{0D71D5C3-34AF-4AB3-A68C-18AA3A691214}.Release|x86.ActiveCfg = Release|x86
+		{0D71D5C3-34AF-4AB3-A68C-18AA3A691214}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+</nicomment>
+<nierror code="5000">
+<B><LJ-V7K></B>Failed to open the communication path.
+</nierror>
+<nierror code="5001">
+<B><LJ-V7K></B>The communication path was not established.
+</nierror>
+<nierror code="5002">
+<B><LJ-V7K></B>Failed to send the command.
+</nierror>
+<nierror code="5003">
+<B><LJ-V7K></B>Failed to receive a response.
+</nierror>
+<nierror code="5004">
+<B><LJ-V7K></B>A timeout occurred while waiting for the response.
+</nierror>
+<nierror code="5005">
+<B><LJ-V7K></B>Failed to allocate memory.
+</nierror>
+<nierror code="5006">
+<B><LJ-V7K></B>An invalid parameter was passed.
+</nierror>
+<nierror code="5007">
+<B><LJ-V7K></B>The received response data was invalid.
+</nierror>
+<nierror code="5009">
+<B><LJ-V7K></B>High-speed communication initialization could not be performed.
+</nierror>
+<nierror code="5010">
+<B><LJ-V7K></B>High-speed communication was initialized.
+</nierror>
+<nierror code="5011">
+<B><LJ-V7K></B>Error already occurred during highspeed communication
+(for high-speed communication)
+</nierror>
+<nierror code="5012">
+<B><LJ-V7K></B>The buffer size passed as an input is insufficient.
+</nierror>
+<nierror code="6000">
+<B><LJ-V7K></B>Status error (when a system error has occurred, etc.)
+</nierror>
+<nierror code="6001">
+<B><LJ-V7K></B>Parameter error (when an invalid parameter was set, etc.)
+</nierror>
+<nierror code="6500">
+<B><LJ-V7K></B>The trigger mode is not "external trigger".
+</nierror>
+<nierror code="6501">
+<B><LJ-V7K></B>Batch measurements are off.
+</nierror>
+<nierror code="6502">
+<B><LJ-V7K></B>The change program setting is "terminal".
+</nierror>
+<nierror code="6503">
+<B><LJ-V7K></B>The operation mode is "high-speed (profile only)".
+</nierror>
+<nierror code="6504">
+<B><LJ-V7K></B>The operation mode is "advanced (with OUT measurement)".
+</nierror>
+<nierror code="6505">
+<B><LJ-V7K></B>"Batch measurements on and profile compression (time axis) off"
+</nierror>
+<nierror code="6506">
+<B><LJ-V7K></B>Not "batch measurements on and profile compression (time axis) off".
+</nierror>
+<nierror code="6507">
+<B><LJ-V7K></B>Storage target setting is "OFF" (no storage).
+</nierror>
+<nierror code="6508">
+<B><LJ-V7K></B>The storage condition setting is not "terminal/command".
+</nierror>
+<nierror code="6509">
+<B><LJ-V7K></B>The storage target setting is not "OUT value".
+</nierror>
+<nierror code="6510">
+<B><LJ-V7K></B>The storage target setting is not profile,
+or "batch measurements on and profile@compression (time axis) off"
+</nierror>
+<nierror code="6511">
+<B><LJ-V7K></B>The storage target setting is not profile,
+or not "batch measurements on and profile@compression (time axis) off"
+</nierror>
+<nierror code="6512">
+<B><LJ-V7K></B>The data specified as the send start position does not exist.
+</nierror>
+<nierror code="6700">
+<B><LJ-V7K></B>Accessing the save area.
+</nierror>
+<nierror code="6701">
+<B><LJ-V7K></B>Batch measurement start/stop processing could not be performed
+because the REMOTE terminal is off or the LASER_OFF terminal is on.
+</nierror>
+<nierror code="6702">
+<B><LJ-V7K></B>No profile data.
+</nierror>
+<nierror code="6703">
+<B><LJ-V7K></B>No batch data (batch measurements not run even once).
+</nierror>
+<nierror code="6704">
+<B><LJ-V7K></B>The batch data specified by <B>Read Batch No</B> in <B>Read Req</B> has not been accumulated yet.
+</nierror>
+<nierror code="6705">
+<B><LJ-V7K></B>A high-speed data communication connection was not established.
+</nierror>
+<nierror code="6706">
+<B><LJ-V7K></B>Already performing high-speed data communication.
+</nierror>
+<nierror code="6800">
+<B><LJ-V7K></B>The VI has never received the profile data in the high-speed communication within a specified time-out frame.
+</nierror>
+<nierror code="6801">
+<B><LJ-V7K></B>The buffer size passed as an input is insufficient.
+</nierror>
+<nierror code="6802">
+<B><LJ-V7K></B>High-speed communication has never been started. 
+</nierror>
+<nierror code="6803">
+<B><LJ-V7K></B>Parameter error
+</nierror>
+<nierror code="6815">
+<B><LJ-V7K></B>System error
+</nierror>
+</nidocument>

@@ -1,0 +1,971 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""res\\LJV_DllSampleAll.rc2""  // Microsoft Visual C++ 以外で編集されたリソース\r\n"
+    "#include ""l.JPN\\afxres.rc""      // 標準コンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LJV_DllSampleAll.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041103a4"
+        BEGIN
+            VALUE "CompanyName", "Keyence Corporation"
+            VALUE "FileDescription", "LJV Dll Function Sample Application"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "LJV_DllSampleAll.exe"
+            VALUE "LegalCopyright", "Copyright (c) 2013 KEYENCE CORPORATION. All rights reserved."
+            VALUE "OriginalFilename", "LJV_DllSampleAll.exe"
+            VALUE "ProductName", "LJV Dll Function Sample Application"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 932
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "Version LJV_DllSampleAll(&A)..."
+    IDS_RESULT_LOG_FORMAT   "_T(""[{0}]:{1}(0x{2:x4}"")"
+    IDS_RESULT_OK           "OK"
+    IDS_RESULT_NG           "NG"
+    IDS_SCMD_INITIALIZE     "Initialize"
+    IDS_SCMD_GETVERSION     "GetVersion"
+    IDS_SCMD_FINALIZE       "Finalize"
+    IDS_SCMD_USBOPEN        "USBOpen"
+    IDS_SCMD_EHTERNETOPEN   "EthernetOpen"
+    IDS_SCMD_COMMCLOSE      "CommClose"
+    IDS_SCMD_REBOOTCONTROLLER "RebootController"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SCMD_RETURNTOFACTORYSETTING "ReturnToFactorySetting"
+    IDS_SCMD_GETERROR       "GetError"
+    IDS_SCMD_CLEARERROR     "ClearError"
+    IDS_SCMD_TRIGGER        "Trigger"
+    IDS_SCMD_STARTMEASURE   "StartMeasure"
+    IDS_SCMD_STOPMEASURE    "StopMeasure"
+    IDS_SCMD_AUTOZERO       "AutoZero"
+    IDS_SCMD_TIMING         "Timing"
+    IDS_SCMD_RESET          "Reset"
+    IDS_SCMD_CLEARMEMORY    "ClearMemory"
+    IDS_SCMD_SETSETTING     "SetSetting"
+    IDS_SCMD_GETSETTING     "GetSetting"
+    IDS_SCMD_INITIALIZESETTING "InitializeSetting"
+    IDS_SCMD_REFLECTSETTING "ReflectSetting"
+    IDS_SCMD_REWRITETEMPORARYSETTING "RewriteTemporarySetting"
+    IDS_SCMD_CHECKMEMORYACCESS "CheckMemoryAccess"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SCMD_SETTIME        "SetTime"
+    IDS_SCMD_GETTIME        "GetTime"
+    IDS_SCMD_CHANGEACTIVEPROGRAM "ChangeActiveProgram"
+    IDS_SCMD_GETACTIVEPROGRAM "GetActiveProgram"
+    IDS_SCMD_GETMEASUREMENTVALUE "GetMeasurementValue"
+    IDS_SCMD_GETPROFILE     "GetProfile"
+    IDS_SCMD_GETBATCHPROFILE "GetBatchProfile"
+    IDS_SCMD_GETPROFILEADVANCE "GetProfileAdvance"
+    IDS_SCMD_GETBATCHPROFILEADVANCE "GetBatchProfileAdvance"
+    IDS_SCMD_STARTSTORAGE   "StartStorage"
+    IDS_SCMD_STOPSTORAGE    "StopStorage"
+    IDS_SCMD_GETSTORAGESTATUS "GetStorageStatus"
+    IDS_SCMD_GETSTORAGEDATA "GetStorageData"
+    IDS_SCMD_GETSTORAGEPROFILE "GetStorageProfile"
+    IDS_SCMD_GETSTORAGEBATCHPROFILE "GetStorageBatchProfile"
+    IDS_SCMD_HIGHSPEEDDATAUSBCOMMUNICATIONINITALIZE 
+                            "HighSpeedDataUSBCommunicationInitalize"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SCMD_HIGHSPEEDDATAETHERNETCOMMUNICATIONINITALIZE 
+                            "HighSpeedDataEthernetCommunicationInitalize"
+    IDS_SCMD_PRESTARTHIGHSPEEDDATACOMMUNICATION 
+                            "PreStartHighSpeedDataCommunication"
+    IDS_SCMD_STARTHIGHSPEEDDATACOMMUNICATION "StartHighSpeedDataCommunication"
+    IDS_SCMD_STOPHIGHSPEEDDATACOMMUNICATION "StopHighSpeedDataCommunication"
+    IDS_SCMD_HIGHSPEEDDATACOMMUNICATIONFINALIZE 
+                            "HighSpeedDataCommunicationFinalize"
+    IDS_RC_FORMAT           "     -> %s \r\n"
+    IDS_RC_OK               "Normal termination"
+    IDS_RC_ERR_OPEN_DEVICE  "Failed to open the device"
+    IDS_RC_ERR_NO_DEVICE    "Device not open"
+    IDS_RC_ERR_SEND         "Command send error"
+    IDS_RC_ERR_RECEIVE      "Response reception error"
+    IDS_RC_ERR_TIMEOUT      "Time out"
+    IDS_RC_ERR_PARAMETER    "Parameter error"
+    IDS_RC_ERR_NOMEMORY     "No free space"
+    IDS_NOT_DEFINE_FORMAT   "  ＃Undefined RC (0x%04X)\r\n"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (米国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About LJV_DllSampleAll"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "LJV_DllSampleAll, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_LJV_DLLSAMPLEALL_DIALOG DIALOGEX 0, 0, 579, 493
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DLL Function Sample"
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB,"SysTabControl32",0x0,7,7,565,479
+END
+
+IDD_SINGLEFUNCDLG DIALOGEX 0, 0, 674, 438
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    CONTROL         "0",IDC_RD_STATE0,"Button",BS_AUTORADIOBUTTON | WS_GROUP,408,48,20,10
+    CONTROL         "1",IDC_RD_STATE1,"Button",BS_AUTORADIOBUTTON,408,58,20,10
+    CONTROL         "2",IDC_RD_STATE2,"Button",BS_AUTORADIOBUTTON,408,68,20,10
+    CONTROL         "3",IDC_RD_STATE3,"Button",BS_AUTORADIOBUTTON,408,79,20,10
+    CONTROL         "4",IDC_RD_STATE4,"Button",BS_AUTORADIOBUTTON,408,89,20,10
+    CONTROL         "5",IDC_RD_STATE5,"Button",BS_AUTORADIOBUTTON,408,100,20,10
+    GROUPBOX        "Conecting Status",IDC_STATIC,401,27,245,86,WS_GROUP
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS0,430,48,98,8
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS1,430,58,98,8
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS2,430,68,98,8
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS3,430,79,98,8
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS4,430,89,98,8
+    LTEXT           "NoConnection",IDC_STATIC_DEVICESTATUS5,430,100,98,8
+    LTEXT           "0",IDC_STATIC_RECEIVE0,545,48,85,8
+    LTEXT           "0",IDC_STATIC_RECEIVE1,545,58,91,8
+    LTEXT           "0",IDC_STATIC_RECEIVE2,545,68,91,8
+    LTEXT           "0",IDC_STATIC_RECEIVE3,545,79,91,8
+    LTEXT           "0",IDC_STATIC_RECEIVE4,545,89,91,8
+    LTEXT           "0",IDC_STATIC_RECEIVE5,545,100,91,8
+    GROUPBOX        "Communication Library",IDC_GB_COMLIB2,7,7,379,423
+    GROUPBOX        "Operations for the DLL",IDC_STATIC,13,21,366,29
+    PUSHBUTTON      "Initialize",IDC_BTN_INITIALIZE,18,31,87,14
+    PUSHBUTTON      "GetVersion",IDC_BTN_GETVERSION,110,31,84,14
+    PUSHBUTTON      "Finalize",IDC_BTN_FINALIZE,199,31,84,14
+    GROUPBOX        "Establish/disconnect the communication path with the controller",IDC_STATIC,13,53,366,30
+    PUSHBUTTON      "UsbOpen",IDC_BTN_USBOPEN,18,64,87,14
+    PUSHBUTTON      "EthernetOpen",IDC_BTN_ETHERNETOPEN,110,64,84,14
+    PUSHBUTTON      "CommClose",IDC_BTN_COMMCLOSE,199,64,84,14
+    GROUPBOX        "System control",IDC_STATIC,13,84,366,30
+    PUSHBUTTON      "RebootController",IDC_BTN_REBOOTCONTROLLER,18,94,87,14
+    PUSHBUTTON      "RetrunToFactorySetting",IDC_BTN_RETURNTOFACTORYSETTIG,110,95,84,14
+    PUSHBUTTON      "GetError",IDC_BTN_GETERROR,199,95,84,14
+    PUSHBUTTON      "ClearError",IDC_BTN_CLEARERROR,290,94,84,14
+    GROUPBOX        "Measurement control",IDC_STATIC,13,115,366,51
+    PUSHBUTTON      "Trigger",IDC_BTN_TRIGGER,18,126,87,14
+    PUSHBUTTON      "StartMeasure",IDC_BTN_STARTMEASURE,110,127,84,14
+    PUSHBUTTON      "StopMeasure",IDC_BTN_STOPMEASURE,199,127,84,14
+    PUSHBUTTON      "AutoZero",IDC_BTN_AUTOZERO,290,127,84,14
+    PUSHBUTTON      "Timing",IDC_BTN_TIMING,18,146,87,14
+    PUSHBUTTON      "Reset",IDC_BTN_RESET,110,146,84,14
+    PUSHBUTTON      "ClearMemory",IDC_BTN_CLEARMEMORY,199,146,84,14
+    GROUPBOX        "Functions related to modifying or reading settings",IDC_STATIC,13,169,366,68
+    PUSHBUTTON      "SetSetting",IDC_BTN_SETSETTIG,18,180,87,14
+    PUSHBUTTON      "GetSetting",IDC_BTN_GETSETTING,110,180,84,14
+    PUSHBUTTON      "InitializeSetting",IDC_BTN_INITIALIZESETTING,199,180,84,14
+    PUSHBUTTON      "ReflectSetting",IDC_BTN_REFLECTSETTING,290,180,84,14
+    PUSHBUTTON      "RewriteTemporarySetting",IDC_BTN_REWRITETEMPORARYSETTING,18,198,87,14
+    PUSHBUTTON      "CheckMemoryAccess",IDC_BTN_CHECKMEMORYACCESS,110,200,84,14
+    PUSHBUTTON      "SetTime",IDC_BTN_SETTIME,199,200,84,14
+    PUSHBUTTON      "GetTime",IDC_BTN_GETTIME,290,200,84,14
+    PUSHBUTTON      "ChangeActiveProgram",IDC_BTN_CHANGEACTIVEPROGRAM,18,218,87,14
+    PUSHBUTTON      "GetActiveProgram",IDC_BTN_GETACTIVEPROGRAM,110,218,84,14
+    GROUPBOX        "Get measurement results",IDC_STATIC,13,243,366,48
+    PUSHBUTTON      "GetProfile",IDC_BTN_GETPROFILE,18,270,84,14
+    PUSHBUTTON      "GetMeasurementValue",IDC_BTN_GETMEASUREMENTVALUE,18,252,84,14
+    PUSHBUTTON      "GetBatchProfile",IDC_BTN_GETBATCHPROFILEE,110,271,84,14
+    PUSHBUTTON      "GetProfileAdvance",IDC_BTN_GETPROFILEADVANCE,199,271,84,14
+    PUSHBUTTON      "GetBatchProfileAdvance",IDC_BTN_GETBATCHPROFILEADVANCE,290,271,84,14
+    GROUPBOX        "Storage-related functions",IDC_STATIC,13,295,366,48
+    PUSHBUTTON      "StartStorage",IDC_BTN_STARTSTORAGE,18,307,87,14
+    PUSHBUTTON      "StopStorage",IDC_BTN_STOPSTORAGE,110,307,84,14
+    PUSHBUTTON      "GetStorageStatus",IDC_BTN_GETSTORAGESTATUS,199,307,84,14
+    PUSHBUTTON      "GetStorageData",IDC_BTN_GETSTORAGEDATA,290,307,84,14
+    PUSHBUTTON      "GetStorageProfile",IDC_BTN_GETSTORAGEPROFILE,18,325,87,14
+    PUSHBUTTON      "GetBatchProfileAdvance",IDC_BTN_GETSTORAGEBATCHPROFILE,110,325,84,14
+    GROUPBOX        "High-speed data communication related functions",IDC_STATIC,13,349,366,73
+    PUSHBUTTON      "HighSpeedDataUSB\nCommunicationInitalize",IDC_BTN_HIGHSPEEDDATAUSBCOMMUNICATIONINITALIZE,18,358,87,27,BS_MULTILINE
+    PUSHBUTTON      "HighSpeedDataEthernet CommunicationInitalize",IDC_BTN_HIGHSPEEDDATAETHERNETCOMMUNICATIONINITALIZE,110,358,84,27,BS_MULTILINE
+    PUSHBUTTON      "PreStartHighSpeedData Communication",IDC_BTN_PRESTARTHIGHSPEEDDATACOMMUNICATION,199,358,84,27,BS_MULTILINE
+    PUSHBUTTON      "StartHighSpeed DataCommunication",IDC_BTN_STARTHIGHSPEEDDATACOMMUNICATION,290,358,84,27,BS_MULTILINE
+    PUSHBUTTON      "StopHighSpeedData Communication",IDC_BTN_STOPHIGHSPEEDDATACOMMUNICATION,18,389,87,27,BS_MULTILINE
+    PUSHBUTTON      "HighSpeedData CommunicationFinalize",IDC_BTN_HIGHSPEEDDATACOMMUNICATIONFINALIZE,110,388,84,27,BS_MULTILINE
+    GROUPBOX        "Setting / Result",IDC_STATIC,395,7,258,423
+    LTEXT           "Controller connection status (Up to 6 units can be connected)",IDC_STATIC,404,18,198,8
+    LTEXT           "ID",IDC_STATIC,408,36,8,8
+    LTEXT           "State(USB/IP Address)",IDC_STATIC,430,36,74,8
+    LTEXT           "Number of received profiles",IDC_STATIC,545,36,89,8
+    GROUPBOX        "Operation result log",IDC_STATIC,401,115,245,73
+    PUSHBUTTON      "Clear the log",IDC_BTN_CLEARLOG,408,126,50,14
+    EDITTEXT        IDC_COMMANDLOG,408,144,229,40,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL,WS_EX_LEFTSCROLLBAR
+    GROUPBOX        "Buffer size setting (set and used when reading profiles)",IDC_STATIC,401,191,245,122
+    LTEXT           "*Match the setting of the controller with this application",IDC_STATIC,410,202,183,8
+    CONTROL         "One Head",IDC_RD_ONEHEAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,418,222,48,10
+    CONTROL         "Two Head",IDC_RD_TWOHEAD,"Button",BS_AUTORADIOBUTTON,478,222,48,10
+    CONTROL         "Two heads (wide)",IDC_RD_TWOHEADWIDE,"Button",BS_AUTORADIOBUTTON,541,222,73,10
+    GROUPBOX        "Head",IDC_STATIC,408,212,229,25,WS_GROUP
+    GROUPBOX        "Imaging settings",IDC_STATIC,408,238,229,42
+    LTEXT           "Measurement range X direction",IDC_STATIC,418,249,100,8
+    COMBOBOX        IDC_CMB_RANGE,527,247,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Binning",IDC_STATIC,418,264,24,8
+    COMBOBOX        IDC_CMB_BINNING,527,263,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Profile settings",IDC_STATIC,408,280,230,29
+    LTEXT           "Compression (X axis)",IDC_STATIC,418,293,68,8
+    COMBOBOX        IDC_CMB_COMP,497,291,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Envelope setting",IDC_CHK_ENVELOPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,559,292,69,10
+    GROUPBOX        "Profile-related settings ( set and used during high-speed communication)",IDC_STATIC,401,315,245,40
+    CONTROL         "Start the timer",IDC_CHK_TIMER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,411,327,63,10
+    EDITTEXT        IDC_EDIT_STARTTIMER,474,326,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_STARTTIMER,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,514,326,11,14
+    CONTROL         "Count only the number of profiles.",IDC_CHK_COUNTONLY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,411,340,126,10
+    GROUPBOX        "Save the results file",IDC_STATIC,401,357,245,65
+    LTEXT           "Save destination",IDC_STATIC,409,371,54,8
+    EDITTEXT        IDC_EDIT_SAVEFILEPATH,468,369,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "�",IDC_BTN_SAVE_DESTINATION,615,369,26,14
+    LTEXT           "Index of the profile to save",IDC_STATIC,409,388,89,8
+    EDITTEXT        IDC_EDIT_PROFINDEX,501,386,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_PROFINDEX,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,541,385,11,14
+    DEFPUSHBUTTON   "Save the profile",IDC_SAVE_PROFILE,425,403,105,14
+    PUSHBUTTON      "Save the measurement value",IDC_SAVEMEASUREMENTVALUE,533,403,104,14
+END
+
+IDD_SETTINGDLG DIALOGEX 0, 0, 270, 331
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    LTEXT           "For details on the items that follow the category, see the tables in the communication command specifications.",IDC_STATIC,18,12,210,18
+    LTEXT           "0x",IDC_STATIC,27,38,8,8
+    EDITTEXT        IDC_EDIT_DEPTH,36,36,40,14,ES_AUTOHSCROLL
+    LTEXT           "0: Write settings area, 1: Running settings area, 2: Save area",IDC_STATIC,38,53,232,8
+    LTEXT           "0x",IDC_STATIC,26,74,8,8
+    EDITTEXT        IDC_EDIT_TYPE,36,72,40,14,ES_AUTOHSCROLL
+    LTEXT           "0x01: Environment settings, 0x02: Common measurement settings,  0x10: Program 0, 0x11: Program 1, ..., 0x1F: Program 15",IDC_STATIC,36,90,228,18
+    LTEXT           "0x",IDC_STATIC,25,124,8,8
+    EDITTEXT        IDC_EDIT_CATEGORY,36,120,40,14,ES_AUTOHSCROLL
+    LTEXT           "Category",IDC_STATIC,80,123,40,8
+    LTEXT           "0x",IDC_STATIC,25,142,8,8
+    EDITTEXT        IDC_EDIT_ITEM,36,138,40,14,ES_AUTOHSCROLL
+    LTEXT           "Setting item",IDC_STATIC,80,143,58,8
+    LTEXT           "0x",IDC_STATIC,25,159,8,8
+    EDITTEXT        IDC_EDIT_TARGET1,36,156,40,14,ES_AUTOHSCROLL
+    LTEXT           "Setting target 1",IDC_STATIC,80,159,58,8
+    LTEXT           "0x",IDC_STATIC,25,177,8,8
+    EDITTEXT        IDC_EDIT_TARGET2,36,174,40,14,ES_AUTOHSCROLL
+    LTEXT           "Setting target 2",IDC_STATIC,80,178,52,8
+    LTEXT           "0x",IDC_STATIC,25,195,8,8
+    EDITTEXT        IDC_EDIT_TARGET3,36,192,40,14,ES_AUTOHSCROLL
+    LTEXT           "Setting target 3",IDC_STATIC,80,195,58,8
+    LTEXT           "0x",IDC_STATIC,25,213,8,8
+    EDITTEXT        IDC_EDIT_TARGET4,36,210,40,14,ES_AUTOHSCROLL
+    LTEXT           "Setting target 4",IDC_STATIC,80,212,58,8
+    LTEXT           "Amount of data",IDC_STATIC,24,234,46,8
+    EDITTEXT        IDC_EDIT_DATAAMOUNT,79,232,40,14,ES_AUTOHSCROLL
+    LTEXT           "BYTE",IDC_STATIC,123,234,18,8
+    LTEXT           "Writing parameters (comma-separated hexadecimal values)",IDC_STATIC_PARAMETERNOTE,26,252,196,8
+    EDITTEXT        IDC_EDIT_PARAMETER,24,264,192,36,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,84,306,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,144,306,50,14
+END
+
+IDD_OPENETHERNETDLG DIALOGEX 0, 0, 202, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open Ethernet"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,48,84,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,102,84,50,14
+    LTEXT           "[Valid range] The IP address is a byte value and the port is a ushort value.",IDC_STATIC,12,12,150,18
+    LTEXT           "IP Address",IDC_STATIC,16,44,44,8
+    LTEXT           "Port",IDC_STATIC,16,62,32,8
+    CONTROL         "",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,72,42,100,15
+    EDITTEXT        IDC_PORTNUM,72,60,40,14,ES_AUTOHSCROLL
+END
+
+IDD_COMBINATIONFUNCDLG DIALOGEX 0, 0, 579, 439
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Establish/disconnect the communication path with the controller",IDC_STATIC,12,12,258,132
+    DEFPUSHBUTTON   "Communication establishment",IDC_BTN_COMMUNICATIONESTABLISHMENT,18,24,102,14
+    PUSHBUTTON      "Communication finalization",IDC_BTN_COMMUNICATIONFINALIZATION,126,24,102,14
+    CONTROL         "USB",IDC_RD_USB,"Button",BS_AUTORADIOBUTTON | WS_GROUP,24,45,29,10
+    CONTROL         "Ethernet",IDC_RD_ETHERNET,"Button",BS_AUTORADIOBUTTON,24,58,42,8
+    GROUPBOX        "",IDC_STATIC,30,64,234,72,WS_GROUP
+    LTEXT           "IP address",IDC_STATIC_IPADDRESS_CAPTION,37,76,32,8,WS_DISABLED
+    CONTROL         "",IDC_IPADDRESSCOMB,"SysIPAddress32",WS_TABSTOP,157,73,100,15
+    LTEXT           "TCP port number",IDC_STATIC_COMMANDPORT_CAPTION,37,96,83,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_COMMANDPORT,205,94,52,14,ES_AUTOHSCROLL
+    LTEXT           "TCP port number (high-speed communication)",IDC_STATIC_HIGHSPEEDPORT_CAPTION,37,114,149,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_HIGHSPEEDPORT,205,112,52,14,ES_AUTOHSCROLL
+    GROUPBOX        "Reading or writing settings for each program number",IDC_STATIC,12,150,258,90
+    LTEXT           "Select the program",IDC_STATIC,25,170,56,8
+    COMBOBOX        IDC_CMB_SELECTPROGRAM,90,168,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PROGRAMFILEPATH,24,192,204,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "�",IDC_BTN_REFERENCEPROGRAMFILEPATH,234,192,30,14
+    PUSHBUTTON      "Sending settings (PC -> LJ)",IDC_BTN_UPLOADPROGRAM,24,216,114,14
+    PUSHBUTTON      "Receiving settings (LJ -> PC)",IDC_BTN_DOWNLOADPROGRAM,150,216,114,14
+    GROUPBOX        "Get measurement results",IDC_STATIC,282,12,276,168
+    PUSHBUTTON      "Get Current values",IDC_BTN_GETCURRENTVALUE,288,24,84,14
+    EDITTEXT        IDC_EDIT_MEASUREDATA,378,24,168,66,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_BORDER | WS_VSCROLL,WS_EX_LEFTSCROLLBAR
+    GROUPBOX        "Get profiles",IDC_STATIC,288,96,258,78
+    LTEXT           "Save path",IDC_STATIC,300,114,36,8
+    EDITTEXT        IDC_EDIT_SAVEPATH,348,112,150,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "�",IDC_BTN_REFERENCESAVEPATH,504,112,30,14
+    PUSHBUTTON      "Get high-speed mode profiles",IDC_BTN_GETPROFILEDATA,300,132,114,14
+    PUSHBUTTON      "Get high-speed mode batch profiles",IDC_BTN_GETBATCHPROFILEDATA,420,132,120,14
+    PUSHBUTTON      "Get advanced mode profiles",IDC_BTN_GETPROFILEADVANCEDATA,300,150,114,14
+    PUSHBUTTON      "Get advanced mode batch profiles",IDC_BTN_GETBATCHPROFILEDATAADVANCE,420,150,120,14
+    GROUPBOX        "High-speed data communication",IDC_STATIC,282,182,276,84
+    PUSHBUTTON      "Start",IDC_BTN_BEGINHIGHSPEEDDATACOMMUNICATION,294,200,50,14
+    LTEXT           "Send start position",IDC_STATIC,359,200,66,8
+    EDITTEXT        IDC_EDIT_STARTPROFILENO,504,200,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Finalize ",IDC_BTN_TERMINATEHIGHSPEEDCOMMUNICATION,294,218,50,14
+    LTEXT           "Callback function call frequency",IDC_STATIC,358,219,95,8
+    EDITTEXT        IDC_EDIT_CALLBACKFREQUENCY,504,219,40,14,ES_AUTOHSCROLL
+    LTEXT           "Number of received ",IDC_STATIC,357,236,72,8
+    LTEXT           "high-speed communication profiles",IDC_STATIC,357,245,115,8
+    EDITTEXT        IDC_EDIT_RECEIVEPROFILECOUNT,480,240,64,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_GETERRORDLG DIALOGEX 0, 0, 150, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get the detailed error information"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,48,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,48,50,14
+    LTEXT           "Amount of system error information to receive",IDC_STATIC,12,18,78,18
+    EDITTEXT        IDC_EDIT_ERRCNT,90,18,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CLEARERRORDLG DIALOGEX 0, 0, 190, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Clear the error"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,30,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,90,42,50,14
+    EDITTEXT        IDC_EDIT_ERRORCODE,24,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "0x",IDC_STATIC,12,18,8,8
+    LTEXT           "Error code of the error to clear",IDC_STATIC,72,17,102,8
+END
+
+IDD_OUTSELECTDLG DIALOGEX 0, 0, 190, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Out Select"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,84,150,50,14
+    EDITTEXT        IDC_EDIT_ONOFFREQ,99,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "On/Off request",IDC_STATIC_REQCOMMENT,18,18,78,8
+    LTEXT           "Other than 0 : on request, 0 : off request",IDC_STATIC_EXPLANATION,18,36,138,8
+    GROUPBOX        "Target OUT (the lower 16bits)",IDC_STATIC,12,54,132,90
+    CONTROL         "1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,72,19,10
+    CONTROL         "2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,72,19,10
+    CONTROL         "3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,72,19,10
+    CONTROL         "4",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,72,19,10
+    CONTROL         "5",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,90,19,10
+    CONTROL         "6",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,90,19,10
+    CONTROL         "7",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,90,19,10
+    CONTROL         "8",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,90,19,10
+    CONTROL         "9",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,108,19,10
+    CONTROL         "10",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,108,23,10
+    CONTROL         "11",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,108,23,10
+    CONTROL         "12",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,108,23,10
+    CONTROL         "13",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,126,23,10
+    CONTROL         "14",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,126,23,10
+    CONTROL         "15",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,126,23,10
+    CONTROL         "16",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,126,23,10
+END
+
+IDD_DEPTHPROGRAMSELECTDLG DIALOGEX 0, 0, 222, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Program settings"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,102,156,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,156,50,14
+    LTEXT           "0x",IDC_STATIC_HEX1,12,12,8,8
+    LTEXT           "Level (specified with LJV7IF_SETTING_DEPTH)  0x00  Write settings memory                           0x01  Running memory                                     0x02  Save memory ",IDC_STATIC_LEVELNOTE,15,29,153,36
+    LTEXT           "Level",IDC_STATIC_LEVEL,78,12,16,8
+    LTEXT           "0x",IDC_STATIC_HEX2,12,78,8,8
+    EDITTEXT        IDC_EDIT_DEPTH,24,9,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TARGET,26,75,40,14,ES_AUTOHSCROLL
+    LTEXT           "Specified program",IDC_STATIC_PROGRAMNOTE,72,78,78,8
+    LTEXT           "Specified program (specified with LJV7IF_INIT_SETTING_TARGET) ",IDC_STATIC_SPECIFYNOTE,12,96,144,18
+    LTEXT           "0x00  program 0   0x01  program 1     �                      0x0F  program 15 ",IDC_STATIC_SPECIFYNOTE2,12,114,60,36
+END
+
+IDD_TIMEDLG DIALOGEX 0, 0, 130, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Date and time setting"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,6,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,66,150,50,14
+    LTEXT           "Input rage(0 to 255)",IDC_STATIC,12,12,78,8
+    LTEXT           "Year",IDC_STATIC,18,30,14,8
+    LTEXT           "Month",IDC_STATIC,18,48,19,8
+    LTEXT           "Day",IDC_STATIC,18,66,12,8
+    LTEXT           "Hour",IDC_STATIC,18,84,15,8
+    LTEXT           "Minute",IDC_STATIC,18,102,24,8
+    LTEXT           "Second",IDC_STATIC,18,120,24,8
+    EDITTEXT        IDC_EDIT_YEAR,46,27,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MONTH,46,45,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DAY,47,64,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HOUR,47,82,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MINUTE,47,99,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SECOND,47,118,61,14,ES_AUTOHSCROLL
+END
+
+IDD_GETPROFILEDLG DIALOGEX 0, 0, 298, 277
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Read the profile"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,102,240,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,240,50,14
+    LTEXT           "From what number profile do you want to start acquiring profiles : ushort format  other than that above : byte format",IDC_STATIC,16,15,200,21
+    EDITTEXT        IDC_EDIT_TARGETBANK,18,42,40,14,ES_AUTOHSCROLL
+    LTEXT           "0x00: Active surface 0x01: Inactive surface",IDC_STATIC,18,60,78,15
+    EDITTEXT        IDC_EDIT_POSMODE,18,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "0x00: From current 0x01: From oldest 0x02: Specify position",IDC_STATIC,18,102,72,24
+    EDITTEXT        IDC_EDIT_PROFILENO,18,138,40,14,ES_AUTOHSCROLL
+    LTEXT           "When the profile position specification is [0x02: Specify position],  specify the number of the profile to get.",IDC_STATIC,18,156,210,18
+    EDITTEXT        IDC_EDIT_PROFILECNT,18,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ERASEFLG,18,204,40,14,ES_AUTOHSCROLL
+    LTEXT           "0: Do not erase the profiles that were read. 1: Erase the profiles that were read.",IDC_STATIC,18,222,270,8
+    LTEXT           "Get profile bank specification",IDC_STATIC,63,44,87,8
+    LTEXT           "Get profile position specification method",IDC_STATIC,63,86,120,8
+    LTEXT           "From what number profile do you want to start acquiring profiles?",IDC_STATIC,62,140,220,8
+    LTEXT           "Number of profiles to request the acquisition of",IDC_STATIC,62,184,172,8
+    LTEXT           "Already read indication flag",IDC_STATIC,63,206,111,8
+END
+
+IDD_GETBATCHPROFILEDLG DIALOGEX 0, 0, 292, 319
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get Batch Profile"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,126,288,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,288,50,14
+    EDITTEXT        IDC_EDIT_TARGETBANK,18,42,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_POSMODE,18,84,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHNO,18,145,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFILENO,18,168,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFILECNT,18,216,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ERASEFLG,18,240,40,14,ES_AUTOHSCROLL
+    LTEXT           "From what number profile do you want to start acquiring profiles : ushort format  other than that above : byte format",IDC_STATIC,18,12,204,18
+    LTEXT           "0x00: Active surface 0x01: Inactive surface",IDC_STATIC,18,60,78,15
+    LTEXT           "When the profile position specification is [0x02: Specify position],  specify the number of the profile to get.",IDC_STATIC,20,184,214,18
+    LTEXT           "0: Do not erase the profiles that were read. 1: Erase the profiles that were read.",IDC_STATIC,18,258,144,18
+    LTEXT           "Get profile bank specification",IDC_STATIC,63,44,87,8
+    LTEXT           "What is the number of the batch that contains the profile to get?",IDC_STATIC,62,148,208,8
+    LTEXT           "Number of profiles to request the acquisition of",IDC_STATIC,60,218,156,8
+    LTEXT           "Already read indication flag",IDC_STATIC,60,242,90,8
+    LTEXT           "From what number profile do you want to start acquiring profiles?",IDC_STATIC,60,170,216,8
+    LTEXT           "Get bank position specification method",IDC_STATIC,64,86,115,8
+    LTEXT           "0x00: From current                                0x02: Specify position                              0x03: From current after batch commitment  0x04: Current only",IDC_STATIC,18,102,144,36
+END
+
+IDD_GETBATCHPROFILEADVANCEDLG DIALOGEX 0, 0, 304, 229
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get Batch Profile Advance"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,126,204,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,186,204,50,14
+    LTEXT           "From what number profile do you want to start acquiring profiles : ushort format  other than that above : byte format",IDC_STATIC,12,12,216,15
+    LTEXT           "When the profile position specification is [0x02: Specify position],  specify the number of the profile to get.",IDC_STATIC,12,150,210,18
+    LTEXT           "What is the number of the batch that contains the profile to get?",IDC_STATIC,56,111,214,8
+    LTEXT           "Number of profiles to request the acquisition of",IDC_STATIC,55,176,155,8
+    LTEXT           "From what number profile do you want to start acquiring profiles?",IDC_STATIC,54,135,210,8
+    LTEXT           "Get bank position specification method",IDC_STATIC,54,44,144,8
+    LTEXT           "0x00: From current                                0x02: Specify position                              0x03: From current after batch commitment  0x04: Current only",IDC_STATIC,12,60,144,36
+    EDITTEXT        IDC_EDIT_POSMODE,12,42,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHNO,12,108,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFILENO,12,132,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFCNT_BPA,12,173,40,14,ES_AUTOHSCROLL
+END
+
+IDD_GETSTORAGESTATUSDLG DIALOGEX 0, 0, 166, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get Storage Status Req"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,12,36,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,36,50,14
+    LTEXT           "Target surface to read",IDC_STATIC,12,18,78,8
+    EDITTEXT        IDC_EDIT_READAREA,105,16,45,14,ES_AUTOHSCROLL
+END
+
+IDD_GETSTORAGEDATADLG DIALOGEX 0, 0, 244, 121
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get Storege Data"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,72,96,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,132,96,50,14
+    EDITTEXT        IDC_EDIT_STARTNO,12,42,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DATACNT,12,66,42,14,ES_AUTOHSCROLL
+    LTEXT           "Storage surface to read Storage surface to read",IDC_STATIC,59,21,169,8
+    LTEXT           "Data number to start reading from",IDC_STATIC,59,46,133,8
+    LTEXT           "Number of items to read",IDC_STATIC,60,69,120,8
+    EDITTEXT        IDC_EDIT_SURFACE,12,19,42,14,ES_AUTOHSCROLL
+END
+
+IDD_GETSTORAGEBATCHPROFILEDLG DIALOGEX 0, 0, 334, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get Storage Batch Profile"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,108,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,108,50,14
+    EDITTEXT        IDC_EDIT_SURFACE,12,12,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHNO,12,36,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTOPPROFNO,12,60,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFCNT,12,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "Storage surface to read",IDC_STATIC,59,15,91,8
+    LTEXT           "Batch number to read",IDC_STATIC,59,39,91,8
+    LTEXT           "From what profile number in the batch do you want to get the data?",IDC_STATIC,58,64,224,8
+    LTEXT           "Number of profiles to read",IDC_STATIC,58,87,104,8
+END
+
+IDD_HIGHSPEEDUSBINITIALIZEDLG DIALOGEX 0, 0, 150, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HighSpeed USB Initialize"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,42,50,14
+    EDITTEXT        IDC_EDIT_PROFCNT,84,16,40,14,ES_AUTOHSCROLL
+    LTEXT           "Number of profiles",IDC_STATIC,10,18,67,8
+END
+
+IDD_PRESTARTHIGHSPEEDDLG DIALOGEX 0, 0, 143, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PreStartHighSpeed"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,36,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,36,50,14
+    LTEXT           "Send start position",IDC_STATIC,6,18,68,8
+    EDITTEXT        IDC_EDIT1,86,16,40,14,ES_AUTOHSCROLL
+END
+
+IDD_HIGHSPEEDETHERNETINITIALIZEDLG DIALOGEX 0, 0, 264, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HighSpeed Initalize"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,120,114,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,180,114,50,14
+    LTEXT           "[Valid range] The IP address is a byte value and the port is a ushort value.",IDC_STATIC,18,12,246,8
+    EDITTEXT        IDC_EDIT_COMMANDPORT,144,48,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIGHSPEEDPORT,144,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROFCNT,144,84,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,84,27,100,15
+    LTEXT           "IP Address",IDC_STATIC,24,30,33,8
+    LTEXT           "Port",IDC_STATIC,24,51,66,8
+    LTEXT           "Port(High Speed)",IDC_STATIC,24,69,66,8
+    LTEXT           "Number of profiles",IDC_STATIC,24,87,108,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_LJV_DLLSAMPLEALL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 572
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 486
+    END
+
+    IDD_SINGLEFUNCDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 660
+        VERTGUIDE, 13
+        VERTGUIDE, 18
+        VERTGUIDE, 105
+        VERTGUIDE, 110
+        VERTGUIDE, 199
+        VERTGUIDE, 290
+        VERTGUIDE, 401
+        VERTGUIDE, 408
+        VERTGUIDE, 418
+        VERTGUIDE, 430
+        VERTGUIDE, 545
+        VERTGUIDE, 637
+        VERTGUIDE, 646
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 431
+    END
+
+    IDD_SETTINGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPENETHERNETDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_COMBINATIONFUNCDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 572
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 432
+    END
+
+    IDD_GETERRORDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_CLEARERRORDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_OUTSELECTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DEPTHPROGRAMSELECTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_TIMEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_GETPROFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+
+    IDD_GETBATCHPROFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+
+    IDD_GETBATCHPROFILEADVANCEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_GETSTORAGESTATUSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_GETSTORAGEDATADLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_GETSTORAGEBATCHPROFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 327
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_HIGHSPEEDUSBINITIALIZEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_PRESTARTHIGHSPEEDDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_HIGHSPEEDETHERNETINITIALIZEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SINGLEFUNCDLG DLGINIT
+BEGIN
+    IDC_CMB_RANGE, 0x403, 5, 0
+0x5546, 0x4c4c, "\000" 
+    IDC_CMB_RANGE, 0x403, 7, 0
+0x494d, 0x4444, 0x454c, "\000" 
+    IDC_CMB_RANGE, 0x403, 6, 0
+0x4d53, 0x4c41, 0x004c, 
+    IDC_CMB_BINNING, 0x403, 4, 0
+0x464f, 0x0046, 
+    IDC_CMB_BINNING, 0x403, 3, 0
+0x4e4f, "\000" 
+    IDC_CMB_COMP, 0x403, 4, 0
+0x464f, 0x0046, 
+    IDC_CMB_COMP, 0x403, 2, 0
+0x0032, 
+    IDC_CMB_COMP, 0x403, 2, 0
+0x0034, 
+    0
+END
+
+IDD_COMBINATIONFUNCDLG DLGINIT
+BEGIN
+    IDC_CMB_SELECTPROGRAM, 0x403, 12, 0
+0x6e45, 0x6976, 0x6f72, 0x6d6e, 0x6e65, 0x0074, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 7, 0
+0x6f43, 0x6d6d, 0x6e6f, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x306d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x316d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x326d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x336d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x346d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x356d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x366d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x376d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x386d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 9, 0
+0x7250, 0x676f, 0x6172, 0x396d, "\000" 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0030, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0031, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0032, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0033, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0034, 
+    IDC_CMB_SELECTPROGRAM, 0x403, 10, 0
+0x7250, 0x676f, 0x6172, 0x316d, 0x0035, 
+    0
+END
+
+#endif    // 英語 (米国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "res\LJV_DllSampleAll.rc2"  // Microsoft Visual C++ 以外で編集されたリソース
+#include "l.JPN\afxres.rc"      // 標準コンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
