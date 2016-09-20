@@ -51,7 +51,7 @@ With the keyence sensor powered and the blue lasers facing a distinct object, la
     ogunmolu:~/Desktop/Keyence/Exe/Linux_i686$ ./LJV7_GetProfile 192.168.10.20
 ```
 
-If everything goes well, you should see an output similar to the results in the [following log file](https://git.kivasystems.com/projects/HWA/repos/keyence/browse/Exe/Linux_i686/profile.log).
+If everything goes well, you should see an output similar to the results in the [following log file](/Exe/Linux_i686/profile.log).
 
 
 
